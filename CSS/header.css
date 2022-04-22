@@ -1,0 +1,41 @@
+/*  HEADER  */
+
+header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 5px 5px 0 rgba( 0, 0, 0, 0.1);
+}
+
+/*  Location*/
+
+.concept {
+	padding-bottom: 20px;
+	background-color: rgb(245, 245, 245);
+	text-align: center;
+}
+
+.location {
+  background-color: #f0f0f0;
+  background-color: #e9e9ed;
+}
+
+.location .icon {
+padding: 15px 15px 15px 0;
+}
+
+.concept-title {
+  padding: 0 40px;
+}
+
+.concept-description {
+  padding: 0 30px;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+h4, p {
+	margin: 0;
+}

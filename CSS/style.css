@@ -1,0 +1,37 @@
+@import url("./chargement.css");
+@import url("./header.css");
+@import url("./boutton_R.css");
+@import url("./body.css");
+@import url("./footer.css");
+
+/*  TITRE  */
+.titre_menu{
+	font-family: 'shrikhand';
+	font-size: 27px;
+}
+
+.sous_titres{
+	font-family: 'roboto';
+	font-weight: lighter;
+	border-bottom: 2px solid $menthe;
+	width: 13%;
+	padding-bottom: 1%;
+	font-size: 20px;
+	margin-top: 5%;
+}
+.footer {
+  background-color: #353535;
+}
+/*  MAIN  */
+
+main {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 50px;
+	background-color: rgb(245, 245, 245);
+}
+	:root {
+  --purple: #9356DC;
+  --pink: #FF79DA;
+  --teal: #99E2D0;
+}
