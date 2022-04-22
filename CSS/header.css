@@ -11,8 +11,15 @@ header {
 
 .concept {
 	padding-bottom: 20px;
-	background-color: rgb(245, 245, 245);
 	text-align: center;
+	justify-content: center;
+align-items: center;
+text-align: center;
+font-family: "roboto", sans-serif;
+font-weight: 300;
+font-size: 18px;
+background-color: #f2f2f2;
+color: black;
 }
 
 .location {
@@ -39,3 +46,12 @@ padding: 15px 15px 15px 0;
 h4, p {
 	margin: 0;
 }
+
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: "roboto", sans-serif;
+font-weight: 300;
+font-size: 18px;
+background-color: #f2f2f2;
+color: black;

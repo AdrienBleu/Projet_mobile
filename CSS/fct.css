@@ -1,12 +1,57 @@
-.container {
+/*FONCTIONNEMENT*/
+
+.item {
+  display: flex;
   max-width: 1280px;
   margin: auto;
-  width: 100%;
+  margin-bottom: 25px;
+  width: 90%;
+  height: 40px;
   padding: 15px 0px;
-  display: flex;
   position: relative;
-  flex-direction: row;
+  background-color: #f2f2f2;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   -webkit-box-align: center;
   -webkit-box-direction: normal;
+  list-style-type: none;
+  box-shadow: 8px 8px 12px #dfe6e9;
+  font-family: "roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  justify-content: left;
+  align-items: center;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/*CHIFFRE*/
+
+     .step { -moz-border-radius: 150px;
+    border-radius: 150px;
+    padding: 4px;
+    background-color: #9356dc;
+    text-decoration-color: white;
+    border: none;
+    color: white;
+    position: absolute;
+    left: -9px;
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 17px;
+  height: 17px;
+  border-radius: 90px;
+}
+
+/*TITRE*/
+
+.titre_fct{
+display: block;
+margin-left: 5%;
+margin-top: 43px;
+font-family: "roboto", sans-serif;
+font-weight: 600;
+font-size: 24px;
+}
