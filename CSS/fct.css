@@ -20,7 +20,6 @@
   font-family: "roboto", sans-serif;
   font-size: 13px;
   font-weight: 400;
-  justify-content: left;
   align-items: center;
   border-radius: 20px 20px 20px 20px;
 }
@@ -54,4 +53,21 @@ margin-top: 43px;
 font-family: "roboto", sans-serif;
 font-weight: 600;
 font-size: 24px;
+}
+
+/*LOGO*/
+.icon {
+margin-left: 5%;
+font-size: 20px;
+}
+
+/*TXT*/
+.label {
+display: block;
+position: relative;
+font-family: "roboto", sans-serif;
+font-weight: 600;
+font-size: 16px;
+left: 40px;
+margin-right: 2rem;
 }
