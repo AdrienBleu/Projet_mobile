@@ -4,7 +4,9 @@
 @import url("./body.css");
 @import url("./footer.css");
 @import url("./fct.css");
-@import url("./Restaurants");
+@import url("./restaurants.css");
+
+
 
 /*  TITRE  */
 .titre_menu{
@@ -29,7 +31,6 @@
 main {
 	display: flex;
 	flex-direction: column;
-	padding-bottom: 50px;
 	background-color: white;
 }
 	:root {

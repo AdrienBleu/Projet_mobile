@@ -1,4 +1,4 @@
-/*Restaurants*/
+/*restaurants*/
 /*TITRE*/
 
 .sectionTitle {
@@ -13,12 +13,33 @@
         margin: 2em 0 0 0;
         padding: 2em 2em 0 2em;
         border-radius: 15px;
-        box-shadow: 0 5px 15px $shadow;
+        box-shadow: 0 5px 15px black;
         overflow: hidden;
         margin: 1em 0;
         max-width: 45%;
         position: relative;
         transition: all .2s ease-in-out;
         width: 100%;
-
 }
+
+/*COEUR*/
+
+
+
+ .section__Restaurants+i {
+                bottom: 1em;
+                color: black;
+                cursor: pointer;
+                font-size: 25px;
+                position: absolute;
+                right: 1em;
+                transition: all .2s ease-in-out;
+            }
+.section__Restaurants+i:hover {
+                    background: linear-gradient(#9356DC, #FF79DA);
+                    color: white;
+                    font-weight: 600;
+                    transform: scale(1.2);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
