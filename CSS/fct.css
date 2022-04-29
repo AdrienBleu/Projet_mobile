@@ -2,7 +2,6 @@
 
 .item {
   display: flex;
-  max-width: 1280px;
   margin: auto;
   margin-bottom: 25px;
   width: 90%;
@@ -10,8 +9,7 @@
   padding: 15px 0px;
   position: relative;
   background-color: #f2f2f2;
-  flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   -webkit-box-align: center;
   -webkit-box-direction: normal;
@@ -22,7 +20,14 @@
   font-weight: 400;
   align-items: center;
   border-radius: 20px 20px 20px 20px;
+      
 }
+/*OVERBTN*/
+ .item:hover{
+background-color: #ff79da21;
+  color: #9356DC;
+ }
+
 
 /*CHIFFRE*/
 
@@ -36,7 +41,7 @@
     position: absolute;
     left: -9px;
     display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   width: 17px;
@@ -48,8 +53,8 @@
 
 .titre_fct{
 display: block;
-margin-left: 5%;
 margin-top: 43px;
+margin-left: 5%;
 font-family: "roboto", sans-serif;
 font-weight: 600;
 font-size: 24px;
@@ -57,17 +62,18 @@ font-size: 24px;
 
 /*LOGO*/
 .icon {
-margin-left: 5%;
 font-size: 20px;
+position: relative;
+left: -10px;
 }
-
+.icon:hover {
+  color: #9356DC;
+}
 /*TXT*/
 .label {
 display: block;
-position: relative;
 font-family: "roboto", sans-serif;
 font-weight: 600;
 font-size: 16px;
-left: 40px;
 margin-right: 2rem;
 }

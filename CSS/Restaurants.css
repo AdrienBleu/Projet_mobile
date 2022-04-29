@@ -1,0 +1,24 @@
+/*Restaurants*/
+/*TITRE*/
+
+.sectionTitle {
+        margin-left: 5%;
+        width: 100%;
+}
+
+.section__Restaurants {
+		display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2em 0 0 0;
+        padding: 2em 2em 0 2em;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px $shadow;
+        overflow: hidden;
+        margin: 1em 0;
+        max-width: 45%;
+        position: relative;
+        transition: all .2s ease-in-out;
+        width: 100%;
+
+}
