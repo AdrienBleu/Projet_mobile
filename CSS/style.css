@@ -17,7 +17,7 @@
 .sous_titres{
 	font-family: 'roboto';
 	font-weight: lighter;
-	border-bottom: 2px solid $menthe;
+	border-bottom: 2px solid;
 	width: 13%;
 	padding-bottom: 1%;
 	font-size: 20px;

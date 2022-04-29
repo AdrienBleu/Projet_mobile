@@ -23,6 +23,14 @@ list-style-type: none;
   color: white;
   margin-bottom: 15px;
 }
+.titre__footer {
+width : 150px;
+max-width : 200px;
+max-height : 150px;
+height : auto;
+margin-left: 40px;
+}
+
 .footer__txt {
   color: white;
   list-style-type: none;
