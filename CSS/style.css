@@ -5,6 +5,7 @@
 @import url("./footer.css");
 @import url("./fct.css");
 @import url("./restaurants.css");
+@import url("./menuRestaurant.css");
 
 
 
@@ -33,13 +34,15 @@ main {
 	flex-direction: column;
 	background-color: white;
 	color: inherit;
-max-width: 1280px;
 justify-content: center;
 }
-	:root {
+
+:root {
   --purple: #9356DC;
   --pink: #FF79DA;
   --teal: #99E2D0;
 }
 
 {box-sizing: border-box;}
+
+@media max

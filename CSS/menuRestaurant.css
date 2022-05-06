@@ -1,0 +1,66 @@
+/*  IMAGE */
+.menuRestaurantImage {
+object-fit: cover;
+width: 100%;
+max-height: 30rem;}
+
+/*  MENU */
+
+.menuHeader {
+ box-shadow: none !important;
+ font-family: "Shrikhand", cursive;
+}
+
+
+.Menurestaurants {
+width: 100%;
+border-radius: 4rem 4rem 0 0;
+background: whitesmoke;
+position: relative;
+margin-top: -4rem;
+box-shadow: none !important;
+padding-bottom: 50px;
+
+}
+
+.menurestaurantsTitre {
+font-size: 1.5rem;
+box-shadow: none;
+padding-right: 80px;
+padding-top: 10px;
+font-weight: lighter;
+
+}
+.Menurestaurants i {
+left: 77% !important;
+bottom: 28% !important;
+font-size: 26px !important;
+}
+
+/*  BTN */
+
+.btn2 {
+	box-shadow: 3px 2px 15px -10px #000000;
+	background:linear-gradient(to bottom, #ff79d9 5%, #9256dc 100%);
+	background-color:#ff79d9;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:13px 30px;
+	text-decoration: none;
+	font-weight: bold;
+margin: 4rem 40%;
+width: ;
+
+}
+.btn2:hover {
+	background:linear-gradient(to bottom, #9256dc 5%, #ff79d9 100%);
+	background-color:#9256dc;
+}
+.btn2:active {
+	position:relative;
+	top:1px;
+}
