@@ -36,7 +36,8 @@ margin-left: 40px;
   list-style-type: none;
 }
 .footer__icons {
-  margin-right: 10px;
+  width: 1.2rem;
+margin-right: 0.5rem;
 }
 .footer__list {
   margin-bottom: 10px;
