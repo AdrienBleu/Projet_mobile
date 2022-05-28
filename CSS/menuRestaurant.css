@@ -30,9 +30,9 @@ font-weight: lighter;
 
 }
 .Menurestaurants i {
-left: 77% !important;
-bottom: 28% !important;
-font-size: 26px !important;
+left: 77% ;
+bottom: 20% ;
+font-size: 26px ;
 
 }
 
@@ -58,6 +58,7 @@ margin-top: 40px;
 .menu__entrées ul{
 padding-left: 0px;
 }
+
 
 .menu__entrées__repas {
   list-style-type: none;
@@ -124,6 +125,7 @@ max-width: 100%;
 .submenus {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1rem;
+  display: grid;
 }
 .submenus{
 
@@ -152,9 +154,9 @@ padding: 0 1rem;
   .delay-0 {
   animation-delay: 0s;}
 
-  .menuItem {
+
+.menuItem {
   background-color: white;
-  padding: 1rem;
   display: flex;
   border-radius: 0.75rem;
   margin: 1rem 0;
@@ -176,6 +178,7 @@ padding: 0 1rem;
   text-overflow: ellipsis;
   overflow: hidden;
   flex: 1;
+  padding: 0.8rem;
 }
 
 .menuItem__title {
@@ -198,17 +201,7 @@ padding: 0 1rem;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding-left: 0.5rem;
-}
-
-.menuItem__confirmation {
-  background-color: #99E2D0;
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition-duration: 0.5s;
+  padding: 0.8rem;
 }
 
 .delay-1 {
@@ -224,6 +217,57 @@ text-decoration: none;
 justify-content: center;
 padding: 3rem 0;
 }
+
+.menuItem .menuSelection {
+background: #99e2d0;
+cursor: pointer;
+height: auto;
+width: 0;
+opacity: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s ease-in-out; }
+
+
+.fa-check-circle {
+  transform: rotate(359deg);
+  transition: transform 700ms;
+}
+
+.menuItem:hover .menuSelection {
+  opacity: 100%;
+  width: 5.6rem;
+}
+
+.menuItem .menuSelection .material-icons {
+  color: white;
+  transform: rotate(360deg);
+  transition: 0.4s ease-in-out;
+}
+
+.menuItem:hover .material-icons {
+  transform: rotate(0deg);
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2rem;
+  transform: rotate(360deg);
+}
+
 
 /*animation*/
 
