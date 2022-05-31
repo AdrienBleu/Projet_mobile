@@ -123,7 +123,7 @@ max-width: 100%;
 }
 
 .submenus {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, 22em);
   column-gap: 1rem;
   display: grid;
 }
