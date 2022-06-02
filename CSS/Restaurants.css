@@ -116,10 +116,9 @@ height: 40px;
 display: flex !important;
 justify-content: center;
 align-items: center;
-
+bottom: 9%;
 position: absolute;
 left: 85%;
-bottom: 9%;
 font-size: 30px;
 }
 
