@@ -4,7 +4,7 @@ header {
 	position: relative;
 	display: flex;
 	justify-content: center;
-	box-shadow: 0 5px 5px 0 rgba( 0, 0, 0, 0.1);
+	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
 /*  Location*/
@@ -13,53 +13,54 @@ header {
 	padding-bottom: 20px;
 	text-align: center;
 	justify-content: center;
-align-items: center;
-text-align: center;
-font-family: "roboto", sans-serif;
-font-weight: 300;
-font-size: 18px;
-background-color: #f2f2f2;
-color: black;
+	align-items: center;
+	text-align: center;
+	font-family: "roboto", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	background-color: #f2f2f2;
+	color: black;
 }
 
 .location {
-  background-color: #f0f0f0;
-  background-color: #e9e9ed;
+	background-color: #f0f0f0;
+	background-color: #e9e9ed;
 }
 
 .location .icon {
-padding: 15px 15px 15px 0;
+	padding: 15px 15px 15px 0;
 }
 
 .concept-title {
-  padding: 0 40px;
+	padding: 0 40px;
 }
 
 .concept-description {
-  padding: 0 30px;
+	padding: 0 30px;
 }
 
 .lighter {
-  font-weight: lighter;
+	font-weight: lighter;
 }
 
-h4, p {
+h4,
+p {
 	margin: 0;
 }
 
 .fa-arrow-left {
 
-position: absolute;
-left: 2rem;
-height: 2rem;
-width: 2rem;
-top: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-transform: translateY(-50%);
-font-size: 1.2rem;
-color: #000;
+	position: absolute;
+	left: 2rem;
+	height: 2rem;
+	width: 2rem;
+	top: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transform: translateY(-50%);
+	font-size: 1.2rem;
+	color: #000;
 
 }
 
