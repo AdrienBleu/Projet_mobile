@@ -94,7 +94,7 @@ animation-fill-mode: backwards;
 .menu__entrées__repas:hover {
   cursor: pointer;
 }
-.menu__entrées__repas:active {
+.menu__entrées__repas:hover {
 
 }
 
@@ -248,7 +248,7 @@ transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s eas
   transition: transform 700ms;
 }
 
-.menuItem:active .menuSelection {
+.menuItem:hover .menuSelection {
   opacity: 100%;
   width: 5.6rem;
 }
@@ -259,7 +259,7 @@ transition: transform 0.4s ease-in-out, width 0.4s ease-in-out, opacity 0.4s eas
   transition: 0.4s ease-in-out;
 }
 
-.menuItem:active .material-icons {
+.menuItem:hover .material-icons {
   transform: rotate(0deg);
 }
 
