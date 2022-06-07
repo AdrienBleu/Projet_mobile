@@ -120,17 +120,18 @@ bottom: 9%;
 position: absolute;
 left: 85%;
 font-size: 30px;
+cursor: pointer;
 }
 
 
 
 
-.fa-heart:hover {
+.fa-heart:active {
 background: linear-gradient(#9356DC, #FF79DA);
 color: white;
 font-weight: 600;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 cursor: pointer;
-
+transition: all 450ms;
 }
