@@ -10,12 +10,12 @@
 
 
 /*  TITRE  */
-.titre_menu{
+.titre_menu {
 	font-family: 'shrikhand';
 	font-size: 27px;
 }
 
-.sous_titres{
+.sous_titres {
 	font-family: 'roboto';
 	font-weight: lighter;
 	border-bottom: 2px solid;
@@ -24,9 +24,11 @@
 	font-size: 20px;
 	margin-top: 5%;
 }
+
 .footer {
-  background-color: #353535;
+	background-color: #353535;
 }
+
 /*  MAIN  */
 
 main {
@@ -34,15 +36,17 @@ main {
 	flex-direction: column;
 	background-color: white;
 	color: inherit;
-justify-content: center;
+	justify-content: center;
 }
 
 :root {
-  --purple: #9356DC;
-  --pink: #FF79DA;
-  --teal: #99E2D0;
+	--purple: #9356DC;
+	--pink: #FF79DA;
+	--teal: #99E2D0;
 }
 
-{box-sizing: border-box;}
+	{
+	box-sizing: border-box;
+}
 
 @media max

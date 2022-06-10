@@ -1,30 +1,30 @@
 .btn {
 	box-shadow: 3px 2px 15px -10px #000000;
-	background:linear-gradient(to bottom, #ff79d9 5%, #9256dc 100%);
-	background-color:#ff79d9;
-	border-radius:42px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-padding: 20px 45px 20px 45px;
+	background: linear-gradient(to bottom, #ff79d9 5%, #9256dc 100%);
+	background-color: #ff79d9;
+	border-radius: 42px;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 20px 45px 20px 45px;
 	text-decoration: none;
 	font-weight: bold;
 	margin: 20px
-
-
 }
+
 .btn:hover {
-	background:linear-gradient(to bottom, #9256dc 5%, #ff79d9 100%);
-	background-color:#9256dc;
-}
-.btn:active {
-	position:relative;
-	top:1px;
+	background: linear-gradient(to bottom, #9256dc 5%, #ff79d9 100%);
+	background-color: #9256dc;
 }
 
-        border: 0;
+.btn:active {
+	position: relative;
+	top: 1px;
+}
+
+border: 0;
 padding: 0.75rem 1.5rem;
 font-weight: 500;
 font-size: 1.1rem;

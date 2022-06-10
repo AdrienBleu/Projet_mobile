@@ -1,10 +1,10 @@
 /*  ANIMATION - loader  */
 
 .loader {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    text-align: center;
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  text-align: center;
 }
 
 .loader-side {
@@ -13,7 +13,7 @@
   display: inline-block;
   margin: 200px auto;
   border-radius: 60px;
-  border-top: 4px solid  #9356DC;
+  border-top: 4px solid #9356DC;
   border-right: 4px solid rgba(91, 25, 93, 0.4);
   border-bottom: 4px solid #FF79DA;
   border-left: 4px solid #99E2D0;
@@ -28,21 +28,22 @@
   -webkit-animation-iteration-count: 2;
   animation-fill-mode: forwards;
   -webkit-animation-fill-mode: forwards;
-  }
+}
 
 @keyframes spin {
   0% {
     transform: rotate(0deg);
-      -webkit-transform: rotate(0deg);
-      overflow: hidden;
+    -webkit-transform: rotate(0deg);
+    overflow: hidden;
   }
+
   100% {
     transform: rotate(360deg);
-      -webkit-transform: rotate(360deg);
-      visibility: hidden;
+    -webkit-transform: rotate(360deg);
+    visibility: hidden;
   }
 }
-  
+
 /*  ANIMATION - Page blanche Loader */
 
 .LoaderStart {
@@ -51,14 +52,14 @@
 
 @keyframes WhitePage {
   0% {
-      opacity: 0;
+    opacity: 0;
   }
-  
+
   50% {
-      opacity: 0;
+    opacity: 0;
   }
-  
+
   100% {
-      opacity: 1;
+    opacity: 1;
   }
 }

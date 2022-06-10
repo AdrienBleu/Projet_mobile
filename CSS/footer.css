@@ -1,20 +1,20 @@
 /*  FOOTER  */
 #footer {
-position:absolute;
- bottom:0; 
-width:100%;
- height:100px;
- list-style-type: none;
- text-align: left;
-  }
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  list-style-type: none;
+  text-align: left;
+}
 
 .footer {
   background-color: #353535;
   padding: 25px;
   margin-left: -10px;
-text-decoration-color: white;
-list-style-type: none;
-   text-align: left;
+  text-decoration-color: white;
+  list-style-type: none;
+  text-align: left;
 }
 
 .footer__logo {
@@ -23,26 +23,31 @@ list-style-type: none;
   color: white;
   margin-bottom: 15px;
 }
+
 .titre__footer {
-width : 150px;
-max-width : 200px;
-max-height : 150px;
-height : auto;
-margin-left: 40px;
+  width: 150px;
+  max-width: 200px;
+  max-height: 150px;
+  height: auto;
+  margin-left: 40px;
 }
 
 .footer__txt {
   color: white;
   list-style-type: none;
 }
+
 .footer__icons {
   width: 1.2rem;
-margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
+
 .footer__list {
   margin-bottom: 10px;
   list-style-type: none;
 }
 
-.footer__txt {text-decoration-line: none;
-list-style-type: none;}
+.footer__txt {
+  text-decoration-line: none;
+  list-style-type: none;
+}

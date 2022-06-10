@@ -126,18 +126,18 @@
   left: 85%;
   font-size: 30px;
   cursor: pointer;
+  transition: all cubic-bezier(.99,.03,.52,.96) 700ms;
 }
-
 
 .fa-heart:hover {
   background: linear-gradient(#9356DC, #FF79DA);
-  color: white;
   font-weight: 600;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
-  transition: 2s;
-} 
+  transition: all ease-in-out 900ms;
+}
+
 
 
 /* @media screen and (min-width: 1080px) {
