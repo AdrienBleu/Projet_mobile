@@ -84,13 +84,6 @@
   position: absolute;
   right: 1em;
   top: 1em;
-  animation: clignote 1, 5s linear infinite;
-}
-
-@keyframes clignote {
-  50% {
-    opacity: 0;
-  }
 }
 
 /*TXT RESTAURANT*/
@@ -126,7 +119,7 @@
   left: 85%;
   font-size: 30px;
   cursor: pointer;
-  transition: all cubic-bezier(.99,.03,.52,.96) 700ms;
+  transition: all cubic-bezier(1,.99,.86,.06) 700ms;
 }
 
 .fa-heart:hover {
