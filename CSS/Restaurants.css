@@ -119,7 +119,7 @@
   left: 85%;
   font-size: 30px;
   cursor: pointer;
-  transition: all cubic-bezier(1,.99,.86,.06) 700ms;
+  transition: all cubic-bezier(1,.99,.86,.06) 300ms;
 }
 
 .fa-heart:hover {
