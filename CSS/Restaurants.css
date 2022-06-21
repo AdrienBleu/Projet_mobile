@@ -129,6 +129,7 @@
   -webkit-text-fill-color: transparent;
   cursor: pointer;
   transition: all ease-in-out 900ms;
+  background-clip: text;
 }
 
 

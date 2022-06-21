@@ -98,7 +98,6 @@
   cursor: pointer;
 }
 
-.menu__entrées__repas:hover {}
 
 .menu__entrées__repas__description__prix {
   font-weight: bold;
@@ -285,6 +284,8 @@
   -moz-osx-font-smoothing: grayscale;
   font-size: 2rem;
   transform: rotate(360deg);
+  font-feature-settings: 'liga';
+
 }
 
 
