@@ -178,7 +178,7 @@
   animation-timing-function: cubic-bezier(0.5, 1.58, 0.34, 0.82);
   animation-fill-mode: both;
   transform: scale(0);
-  max-width: 100%;
+  max-width: 20PX;
   min-width: 23EM;
 }
 
@@ -298,3 +298,4 @@
   100% {
     transform: scale(1);
   }
+}
